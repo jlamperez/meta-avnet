@@ -6,6 +6,9 @@ SRC_URI += "file://system-bsp.dtsi \
 SRC_URI_append_ultra96v2 = " file://openamp.dtsi \
 "
 
+SRC_URI_append_uz7ev-evcc = " file://hdmi.dtsi \
+"
+
 do_configure_append () {
         echo '/include/ "system-bsp.dtsi"' >> ${DT_FILES_PATH}/system-top.dts
 }

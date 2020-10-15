@@ -79,6 +79,7 @@ IMAGE_INSTALL_append_uz = "\
         e2fsprogs-resize2fs \
         hdparm \
         i2c-tools-misc \
+        kernel-module-hdmi \
         libdrm \
         libdrm-kms \
         libdrm-tests \
@@ -87,6 +88,7 @@ IMAGE_INSTALL_append_uz = "\
         mac-eeprom-config \
         mac-eeprom-config-init \
         media-ctl \
+        packagegroup-hdmi \
         parted \
         performance-tests \
         python3 \
